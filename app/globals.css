@@ -7,3 +7,30 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 135px;
+}
+
+li {
+  position: relative;
+  color: gray;
+  letter-spacing: 0.5px;
+}
+
+li::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+}
+li:hover::after {
+  width: 100%;
+}

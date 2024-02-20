@@ -8,13 +8,15 @@ const Navbar = () => {
         <h1>kakaohairshop</h1>
         <CiLocationOn />
       </div>
-      <ul className="w-full bg-gray-300 rounded-full flex items-center justify-around h-[50px] mx-auto spatial">
-        <li>홈</li>
-        <li>내주변</li>
-        <li>스타일북</li>
-        <li>에약</li>
-        <li>마이</li>
-      </ul>
+      <div className="border-b">
+        <ul className="w-full rounded-full flex items-center justify-around h-[50px] mx-auto spatial">
+          <li className="list">홈</li>
+          <li className="list">내주변</li>
+          <li className="list">스타일북</li>
+          <li className="list">에약</li>
+          <li className="list">마이</li>
+        </ul>
+      </div>
     </div>
   );
 };

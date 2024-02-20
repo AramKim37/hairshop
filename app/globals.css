@@ -8,8 +8,12 @@
   margin: 0;
 }
 .spatial {
-  background-color: rgba(211, 224, 250, 0.709);
+  background-color: rgba(223, 230, 232, 0.709);
   backdrop-filter: blur(20px);
+}
+
+.header-icons {
+  @apply flex flex-col items-center justify-center gap-2 basis-1/5 pb-10;
 }
 /* li {
   position: relative;

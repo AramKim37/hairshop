@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen flex flex-col items-center justify-center">
+    <main className="max-w-screen-md w-full flex flex-col items-center justify-center mt-[100px]">
       <Header />
     </main>
   );

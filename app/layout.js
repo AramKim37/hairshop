@@ -11,8 +11,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="flex flex-col justify-center items-center">
+    <html lang="en" className="flex justify-center">
+      <body className="max-w-screen-md w-full flex flex-col items-center justify-center">
         <Navbar />
         {children}
       </body>

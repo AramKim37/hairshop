@@ -13,10 +13,14 @@
 } */
 
 .header-icons {
-  @apply flex flex-col items-center justify-center gap-2 basis-1/5 pb-10;
+  @apply flex flex-col items-center justify-center gap-2 basis-1/5 pb-10 cursor-pointer;
 }
 .list {
   @apply basis-1/5 text-center;
+}
+
+.selected {
+  @apply font-extrabold animate-bounce;
 }
 
 li {

@@ -59,7 +59,7 @@ const Header = () => {
         </div>
         <div className="header-icons">
           <Image src={Style} width={70} height={70} alt="hair" />
-          <h1>스타일TIP</h1>
+          <h1>스타일</h1>
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@ const Navbar = () => {
         </h1>
         <CiLocationOn className="w-5 h-5 font-extrabold" />
       </div>
-      <div className="border-b ">
+      <div className="border-b">
         <ul className="w-full rounded-full flex items-center justify-around h-[50px] mx-auto">
           <li
             onClick={() => handleItemClick(0)}

@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Ds from "@/public/images/ds.jpeg";
 import { IoSearch } from "react-icons/io5";
+import Event from "./Event";
 
 const Hero = () => {
   return (
@@ -106,6 +107,7 @@ const Hero = () => {
         <span className="w-[90%] flex mx-auto bg-white p-3 rounded-xl items-center gap-3">
           <IoSearch /> <span>매장, 디자이너 이름으로 검색하세요.</span>
         </span>
+        <Event />
       </div>
     </div>
   );

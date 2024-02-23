@@ -7,10 +7,10 @@
   padding: 0;
   margin: 0;
 }
-/* .spatial {
-  background-color: rgba(223, 230, 232, 0.709);
-  backdrop-filter: blur(20px);
-} */
+.spatial {
+  background-color: rgba(135, 140, 141, 0.709);
+  backdrop-filter: blur(30px);
+}
 
 .header-icons {
   @apply flex flex-col items-center justify-center gap-2 basis-1/5 pb-10 cursor-pointer;

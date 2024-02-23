@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Bok from "@/public/images/복.png";
 import New from "@/public/images/신규.png";
 import Coupon from "@/public/images/쿠폰.png";
@@ -8,6 +8,11 @@ import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 
 const Event = () => {
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNextImage();
+    }, 2500);
+  });
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
   const eventImages = [Bok, New, Coupon];
   const handlePrevImage = () => {

@@ -9,7 +9,7 @@ const Navbar = () => {
     setSelectedItem(index);
   };
   return (
-    <div className="max-w-screen-md w-full flex flex-col p-5 gap-5 fixed top-0 bg-white  px-[50px]">
+    <div className="max-w-screen-md w-full flex flex-col p-5 gap-5 fixed top-0 bg-white  px-[50px] z-30">
       <div className="flex gap-5 items-center justify-center">
         <h1>
           kakao<span className="font-extrabold">hairshop</span>

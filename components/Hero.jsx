@@ -5,14 +5,15 @@ import { IoSearch } from "react-icons/io5";
 
 const Hero = () => {
   return (
-    <div className="max-w-screen-md w-full items-center justify-center">
-      <div className="flex flex-col items-center justify-center  py-10 space-y-5 bg-gray-200 rounded-xl">
-        <ul className="w-[250px] mx-auto flex gap-10 under-line basis-1/2 items-center justify-center pb-5">
+    <div className="max-w-screen-md w-full items-center justify-center relative z-10">
+      <div className="bg-gray-200 absolute -top-8 h-10 w-full" />
+      <div className="flex flex-col items-center justify-center  py-5 space-y-5 bg-gray-200 rounded-xl">
+        <ul className="w-[250px] mx-auto flex gap-10 under-line basis-1/2 items-center justify-center pb-2">
           <h1 className="">역삼동 추천</h1>
           <h1>스타일 추천</h1>
         </ul>
         <div className="w-[90%] mx-auto flex flex-col items-center justify-center bg-white p-2 rounded-xl">
-          <div className="w-full flex items-center justify-between">
+          <div className="w-full flex items-center justify-between px-2">
             <h1 className="font-extrabold">다른지역을 추천해드릴까요?</h1>
             <button className="bg-black text-white text-sm font-extrabold px-3 py-2 rounded-full">
               지역변경

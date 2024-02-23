@@ -22,11 +22,9 @@
 .under-line {
   border-bottom: 2px solid gray;
 }
-.under-line:hover {
-  border-bottome: 2px solid black;
-}
+
 .selected {
-  @apply font-extrabold animate-bounce;
+  @apply font-extrabold;
 }
 
 input::placeholder {

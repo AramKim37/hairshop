@@ -15,13 +15,13 @@ import Hero from "./Hero";
 
 const Header = () => {
   return (
-    <div className="max-w-screen-md w-full flex flex-col items-center justify-center pt-[50px] px-14">
+    <div className="max-w-screen-md w-full flex flex-col items-center justify-center pt-[50px] px-14 ">
       <div className="w-full ">
-        <h1 className="flex flex-col font-extrabold text-2xl">
+        <h1 className="flex flex-col font-extrabold text-3xl">
           안녕하세요. <span>카카오헤어샵입니다.</span>
         </h1>
       </div>
-      <div className="w-full flex justify-between flex-wrap pt-8 bg-white rounded-2xl">
+      <div className="w-full flex justify-between flex-wrap pt-8 bg-white rounded-2xl z-20">
         <div className="header-icons">
           <Image src={Hair} width={70} height={70} alt="hair" />
           <h1>헤어샵</h1>
@@ -60,9 +60,10 @@ const Header = () => {
         </div>
         <div className="header-icons">
           <Image src={Style} width={70} height={70} alt="hair" />
-          <h1>스타일</h1>
+          <h1>스타일TIP</h1>
         </div>
       </div>
+      {/* <div className="bg-gray-400 absolute top-0 h-20" /> */}
       <Hero />
     </div>
   );

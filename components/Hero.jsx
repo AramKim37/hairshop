@@ -3,6 +3,7 @@ import React from "react";
 import Ds from "@/public/images/ds.jpeg";
 import { IoSearch } from "react-icons/io5";
 import Event from "./Event";
+import LikeShop from "./LikeShop";
 
 const Hero = () => {
   return (
@@ -108,6 +109,7 @@ const Hero = () => {
           <IoSearch /> <span>매장, 디자이너 이름으로 검색하세요.</span>
         </span>
         <Event />
+        <LikeShop />
       </div>
     </div>
   );

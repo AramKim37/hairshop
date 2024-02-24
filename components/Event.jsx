@@ -8,11 +8,11 @@ import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 
 const Event = () => {
-  useEffect(() => {
-    const interval = setInterval(() => {
-      handleNextImage();
-    }, 2500);
-  });
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     handleNextImage();
+  //   }, 2500);
+  // });
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
   const eventImages = [Bok, New, Coupon];
   const handlePrevImage = () => {

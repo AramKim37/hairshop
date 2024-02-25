@@ -4,6 +4,7 @@ import Ds from "@/public/images/ds.jpeg";
 import { IoSearch } from "react-icons/io5";
 import Event from "./Event";
 import LikeShop from "./LikeShop";
+import NailShop from "./NailShop";
 
 const Hero = () => {
   return (
@@ -110,6 +111,7 @@ const Hero = () => {
         </span>
         <Event />
         <LikeShop />
+        <NailShop />
       </div>
     </div>
   );

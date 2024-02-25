@@ -14,44 +14,44 @@ const LikeShop = () => {
       <div className="flex itmes-center justify-center gap-3">
         <div className="flex flex-col gap-2">
           <Image src={Shop1} alt="shop" className="rounded-sm" />
-          <h1>라우라헤어살롱 본점</h1>
+          <h1 className="font-bold">라우라헤어살롱 본점</h1>
           <div className="flex items-center gap-2">
             <TiStar />
-            <p>4.9</p>
+            <p className="font-light text-[14px]">4.9</p>
             <RiMessage2Fill />
-            <p>31</p>
+            <p className="font-light text-[14px]">16</p>
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <Image src={Shop1} alt="shop" />
-          <h1>라우라헤어살롱 본점</h1>
+          <Image src={Shop2} alt="shop" />
+          <h1 className="font-bold">지오헤어 본점</h1>
           <div className="flex items-center gap-2">
             <TiStar />
-            <p>4.9</p>
+            <p className="font-light text-[14px]">4.9</p>
             <RiMessage2Fill />
-            <p>31</p>
+            <p className="font-light text-[14px]">208</p>
           </div>
         </div>
       </div>
       <div className="flex itmes-center justify-center gap-3">
         <div className="flex flex-col gap-2">
-          <Image src={Shop1} alt="shop" className="" />
-          <h1>라우라헤어살롱 본점</h1>
+          <Image src={Shop3} alt="shop" className="" />
+          <h1 className="font-bold">위콤마헤어 본점</h1>
           <div className="flex items-center gap-2">
             <TiStar />
-            <p>4.9</p>
+            <p className="font-light text-[14px]">4.9</p>
             <RiMessage2Fill />
-            <p>31</p>
+            <p className="font-light text-[14px]">31</p>
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <Image src={Shop1} alt="shop" />
-          <h1>라우라헤어살롱 본점</h1>
+          <Image src={Shop4} alt="shop" />
+          <h1 className="font-bold">라크헤어 선릉역점</h1>
           <div className="flex items-center gap-2">
             <TiStar />
-            <p>4.9</p>
+            <p className="font-light text-[14px]">4.9</p>
             <RiMessage2Fill />
-            <p>31</p>
+            <p className="font-light text-[14px]">1,618</p>
           </div>
         </div>
       </div>

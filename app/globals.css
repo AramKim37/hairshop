@@ -16,7 +16,7 @@
   @apply flex flex-col items-center justify-center gap-2 basis-1/5 pb-10 cursor-pointer;
 }
 .list {
-  @apply basis-1/5 text-center;
+  @apply basis-1/5 text-center cursor-pointer;
 }
 
 .under-line {
@@ -24,7 +24,7 @@
 }
 
 .selected {
-  @apply font-extrabold;
+  @apply font-extrabold text-black;
 }
 
 input::placeholder {

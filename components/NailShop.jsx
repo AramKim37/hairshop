@@ -24,8 +24,9 @@ const NailShop = () => {
   ];
 
   return (
-    <div className="w-[90%] items-center">
-      <div className="flex gap-2">
+    <div className="w-[90%] mx-auto items-center">
+      <h1 className="p-1 font-bold text-xl">예약 가능한 네이샵</h1>
+      <div className="flex gap-2 pt-3">
         {nail.map((item) => (
           <div key={item.id}>
             <Image
@@ -35,9 +36,9 @@ const NailShop = () => {
               height={300}
               className="rounded-t-xl"
             />
-            <div className="bg-white rounded-b-xl p-2">
+            <div className="bg-white rounded-b-xl p-2 font-bold">
               {item.name}
-              <div className="flex gap-2 items-center">
+              <div className="flex gap-2 items-center font-light text-[13px]">
                 <TiStar /> {item.rate}
                 <RiMessage2Fill />
                 {item.review}

@@ -26,13 +26,13 @@ const NailShop = () => {
   return (
     <div className="w-[90%] mx-auto items-center">
       <h1 className="p-1 font-bold text-xl">예약 가능한 네이샵</h1>
-      <div className="flex gap-2 pt-3">
+      <div className="flex gap-2 pt-3 items-center justify-center mx-auto">
         {nail.map((item) => (
           <div key={item.id}>
             <Image
               src={item.img}
               alt="img"
-              width={300}
+              width={400}
               height={300}
               className="rounded-t-xl"
             />
